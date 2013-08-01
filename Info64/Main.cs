@@ -134,16 +134,6 @@ namespace Info64
                     return;
                 }
 
-                ROMFile.Text = loadROM.FileName;
-
-                /* Get Name */
-                ROM_Properties_Name.Text = "Name: ";
-                for (i = 0x20; i <= 0x32; i++)
-                {
-                    fs.Seek(i, SeekOrigin.Begin);
-                    ROM_Properties_Name.Text += br.ReadChar();
-                }
-
                 /* Check correct extension */
                 if (new_ext != ext)
                 {
@@ -160,6 +150,16 @@ namespace Info64
                     MessageBox.Show("Done!");
                 }
                 else new_ext = default(string);
+
+                ROMFile.Text = loadROM.FileName;
+
+                /* Get Name */
+                ROM_Properties_Name.Text = "Name: ";
+                for (i = 0x20; i <= 0x32; i++)
+                {
+                    fs.Seek(i, SeekOrigin.Begin);
+                    ROM_Properties_Name.Text += br.ReadChar();
+                }
 
                 /* Get Region */
                 fs.Seek(0x3E, SeekOrigin.Begin);

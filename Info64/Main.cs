@@ -206,7 +206,7 @@ namespace Info64
 
                 /* Get Version */
                 a = 0;
-                for (i = 0x0c; i <= 0x0f; i++)
+                for (i = 0x0C; i <= 0x0F; i++)
                 {
                     fs.Seek(i, SeekOrigin.Begin);
                     data[a] = br.ReadByte();

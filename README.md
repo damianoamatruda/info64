@@ -2,7 +2,7 @@ Info64
 ======
 
 A tool that shows Nintendo 64 ROM's informations and allows to change some of them
-##[__Download v0.9__](http://www.mediafire.com/?bd5bbqthu8tvrt0)
+##[Download v0.9](http://www.mediafire.com/?bd5bbqthu8tvrt0)
 
 ###Don't copy this project and don't show it as your own
 

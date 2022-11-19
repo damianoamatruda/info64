@@ -2,6 +2,10 @@
 
 GUI editor of Nintendo 64 ROM metadata.
 
+## Demo
+
+[![Info64 - YouTube](https://img.youtube.com/vi/oWuflnc-_bQ/0.jpg)](https://www.youtube.com/watch?v=oWuflnc-_bQ)
+
 ## Documentation
 
 *   __Name__ - From 0x20 to 0x32
